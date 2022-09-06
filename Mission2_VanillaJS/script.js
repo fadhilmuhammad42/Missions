@@ -32,9 +32,9 @@ setInterval(()=>{
 },1000/60)
 
 function earthX(){
-    return Number(planets[2].style.marginLeft.split('vmin')[0])
+    return Number(planets[2].style.left.split('vmin')[0])
 }
 
 function earthY(){
-    return Number(planets[2].style.marginTop.split('vmin')[0])
+    return Number(planets[2].style.top.split('vmin')[0])
 }
